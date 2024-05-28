@@ -1,8 +1,13 @@
-# SINGLE 2-INPUT POSITIVE-OR GATE Chip
+#            SN74AHCT1G32
+## SINGLE 2-INPUT POSITIVE-OR GATE Chip
 
 Example of a basic custom chip for [Wokwi](https://wokwi.com/).
 
 The actual source code for the chip lives in [src/main.c](src/main.c), and the pins are described in [chip.json](chip.json).
+
+## Chip functionalities explained in DOCS 
+
+[Go-to-docs](docs/README.md)
 
 ## Building
 
