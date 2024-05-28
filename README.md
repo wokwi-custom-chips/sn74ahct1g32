@@ -1,4 +1,6 @@
+
 #            SN74AHCT1G32
+
 ## SINGLE 2-INPUT POSITIVE-OR GATE Chip
 
 Example of a basic custom chip for [Wokwi](https://wokwi.com/).
