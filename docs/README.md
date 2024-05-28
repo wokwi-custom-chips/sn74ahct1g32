@@ -8,22 +8,6 @@ The sn74ahct1g32 contain single 2-input Positive-OR gates. Each gate performs th
 of Y = (A + B)  in positive logic.
 
 ## Truth Table
-<<<<<<< HEAD
-|                                     INPUTS                                    | OUTPUT  |
-| ----------------------------------------------------------------------------- |---------|
-| INPUT A | INPUT B | INPUT C | INPUT D | INPUT E | INPUT F | INPUT G | INPUT H |         |
-|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|    L    |    X    |    X    |    X    |    X    |    X    |    X    |    X    |    H    |
-|    X    |    L    |    X    |    X    |    X    |    X    |    X    |    X    |    H    |
-|    X    |    X    |    L    |    X    |    X    |    X    |    X    |    X    |    H    |
-|    X    |    X    |    X    |    L    |    X    |    X    |    X    |    X    |    H    |
-|    X    |    X    |    X    |    X    |    L    |    X    |    X    |    X    |    H    |
-|    X    |    X    |    X    |    X    |    X    |    L    |    X    |    X    |    H    |
-|    X    |    X    |    X    |    X    |    X    |    X    |    L    |    X    |    H    |
-|    X    |    X    |    X    |    X    |    X    |    X    |    X    |    L    |    H    |
-|    H    |    H    |    H    |    H    |    H    |    H    |    H    |    H    |    L    |
-=======
->>>>>>> parent of a3517e7 (Update README.md)
 
 | INPUT A | INPUT B |  OUTPUT |
 | ------- | ------- | ------- |
