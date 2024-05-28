@@ -8,8 +8,8 @@ The cd54hct30 contain single 2-input Positive-OR gates. Each gate performs the B
 of Y = NOT(A . B . C . D . E . F . G . H)  in positive logic.
 
 ## Truth Table
-|                                     INPUTS                                    |         |
-| ----------------------------------------------------------------------------- |  OUTPUT |
+|                                     INPUTS                                    | OUTPUT  |
+| ----------------------------------------------------------------------------- |         |
 | INPUT A | INPUT B | INPUT C | INPUT D | INPUT E | INPUT F | INPUT G | INPUT H |         |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|
 |    L    |    X    |    X    |    X    |    X    |    X    |    X    |    X    |    H    |
