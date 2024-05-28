@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "license": "MIT",
+  "docs": "https://github.com/algovoid/sn74ahct1g32/blob/main/docs/README.md",
+  "name": "sn74ahct1g32",
+  "author": "Algovoid",
+  "pins": [
+    "A",
+    "B",
+    "GND",
+    "Y",
+    "",
+    "VCC"
+  ],
+  "controls" :[]
+}

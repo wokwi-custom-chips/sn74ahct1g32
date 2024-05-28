@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "author": "Algovoid",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-gnd", "id": "gnd1", "top": 172.8, "left": 172.2, "attrs": {} },
+    { "type": "wokwi-vcc", "id": "vcc1", "top": 58.36, "left": 278.4, "attrs": {} },
+    { "type": "chip-sn74ahct1g32", "id": "chip1", "top": 125.82, "left": 177.6, "attrs": {}  },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 111.6,
+      "left": 311.4,
+      "attrs": { "color": "red", "flip": "1" }
+    },
+    { "type": "wokwi-slide-switch", "id": "sw1", "top": 100.4, "left": 108.7, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw2", "top": 100.4, "left": 60.7, "attrs": {} }
+  ],
+  "connections": [
+    [ "chip1:VCC", "vcc1:VCC", "red", [ "h0" ] ],
+    [ "gnd1:GND", "chip1:GND", "black", [ "v0" ] ],
+    [ "led1:A", "chip1:Y", "green", [ "v0" ] ],
+    [ "sw1:3", "chip1:A", "green", [ "v0" ] ],
+    [ "sw2:3", "chip1:B", "green", [ "v0" ] ],
+    [ "sw1:2", "vcc1:VCC", "green", [ "v19.2", "h-28.7", "v-67.2" ] ],
+    [ "sw2:2", "vcc1:VCC", "green", [ "v19.2", "h-28.7", "v-76.8" ] ],
+    [ "led1:C", "gnd1:GND", "green", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
